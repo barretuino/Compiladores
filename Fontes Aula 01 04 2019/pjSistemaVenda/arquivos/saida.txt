@@ -1,0 +1,4 @@
+2;Paulo;barretuino;Narciso;90;;;;;SP;Brasil;ATIVO;70.0
+3;Teste;teste 2;Barsil;1000;Carioba;13465601;Nenhuma;Americana;SC;Brasil;SUSPENSO;100.0
+4;Luiz;luiz.barreto;Victorio;96;Jd. Brasil;13474112;100;Americana;SP;Brasil;ATIVO;100.0
+5;Daniel;daniel@email.com.br;Rua;100;Bairro;1341111;11;Cidade;SP;Brasil;ATIVO;65.0
