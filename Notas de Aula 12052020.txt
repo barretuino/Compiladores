@@ -1,0 +1,69 @@
+Notas de Aula 15 - Geração de código intermediário
+
+****
+	Trabalho para Nota: 26/05/2020
+	
+	Pesquisa Bibliografica sobre Algoritmos de Otimização
+		- Dijkstra
+		- Floyd Warshall
+		- Yen
+		- Ant Colony
+		
+		Minimo são 4 ladas e Máximo 12
+	Fonte Google Scholar
+		
+	Relacionar com o processo de Otimização de Compiladores
+****
+
+A geração de código intermediário é a transformação da árvore de derivação 
+em um segmento de código. Esse código pode, eventualmente, ser o código 
+objeto final, mas, na maioria das vezes, constitui-se num código 
+intermediário.
+
+Tipos de código intermediário
+
+	HIR – High Intermediate Representation
+	Usada nos primeiros estágios do compilador
+	Simplificação de construções gramaticais para somente o 
+	essencial para otimização/geração de código
+
+	MIR – Medium Intermediate Representation
+	Boa base para geração de código eficiente
+	Pode expressar todas características de linguagens de programação 
+	de forma independente da linguagem
+	Representação de variáveis, temporários, registradores
+
+	LIR – Low Intermediate Representation
+	Quase 1-1 para linguagem de máquina
+	Dependente da arquitetura
+
+As formas de representação mais comuns dos tipos de códigos intermediários são:
+
+HIR
+	Árvore e grafo de sintaxe
+	Notações Pós-fixada e Pré-fixada
+	Representações linearizadas
+
+MIR
+	Árvore e grafo de sintaxe
+	Notações Pós-fixada e Pré-fixada:
+	Representações linearizadas
+	Código de três endereços:
+		Quádruplas
+		Triplas
+		Grafos acíclicos dirigidos (DAG)
+
+LIR
+	Instruções assembler
+	
+	
+2 -> 10
+<< 2 -> 1000 = 8
+<< 1 -> 100 = 4
+
+
+/*-----------------------------------*/
+  TypeScript
+/*-----------------------------------*/
+
+
